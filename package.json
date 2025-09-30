@@ -1,0 +1,22 @@
+{
+  "name": "mcprisma",
+  "version": "1.0.0",
+  "description": "Repositorio de pruebas para integrar Prisma con MCP",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:db": "npm run dev --workspace=db",
+    "dev:mcp": "npm run dev --workspace=mcp",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "keywords": [
+    "prisma",
+    "mcp",
+    "monorepo"
+  ],
+  "author": "Agustin Rios",
+  "license": "MIT"
+}

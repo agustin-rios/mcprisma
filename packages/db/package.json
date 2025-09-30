@@ -1,0 +1,26 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "Database package with Prisma ORM",
+  "main": "index.js",
+  "scripts": {
+    "dev": "prisma studio",
+    "migrate": "prisma migrate dev",
+    "generate": "prisma generate",
+    "push": "prisma db push",
+    "seed": "prisma db seed"
+  },
+  "keywords": [
+    "prisma",
+    "database",
+    "orm"
+  ],
+  "author": "Agustin Rios",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.22.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  }
+}
